@@ -1,0 +1,13 @@
+payload:
+  # > Claude Core
+  - 'DOMAIN-SUFFIX,anthropic.com'
+  - 'DOMAIN-SUFFIX,claude.ai'
+
+  # > Claude API
+  - 'DOMAIN-SUFFIX,api.anthropic.com'
+
+  # > Claude Static / Assets
+  - 'DOMAIN-SUFFIX,claudeusercontent.com'
+
+  # > Claude Console
+  - 'DOMAIN-SUFFIX,console.anthropic.com'
