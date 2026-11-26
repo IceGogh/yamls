@@ -50,13 +50,6 @@ payload:
 - DOMAIN-SUFFIX,firebaseio.com,Google
 - DOMAIN-SUFFIX,firebasedatabase.app,Google
 
-# YouTube - 统一纳入 Google
-- DOMAIN-SUFFIX,youtube.com,Google
-- DOMAIN-SUFFIX,youtu.be,Google
-- DOMAIN-SUFFIX,youtube-nocookie.com,Google
-- DOMAIN-SUFFIX,googlevideo.com,Google
-- DOMAIN-SUFFIX,ytimg.com,Google
-
 # Gemini / Google AI 特殊端点
 - DOMAIN,alkalicore-pa.clients6.google.com,Google
 - DOMAIN,alkalimakersuite-pa.clients6.google.com,Google
