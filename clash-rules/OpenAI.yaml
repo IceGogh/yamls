@@ -1,21 +1,70 @@
 payload:
-  # > OpenAI Core
-  - 'DOMAIN-SUFFIX,openai.com'
-  - 'DOMAIN-SUFFIX,api.openai.com'
-  - 'DOMAIN-SUFFIX,chat.openai.com'
-  - 'DOMAIN-SUFFIX,platform.openai.com'
-  - 'DOMAIN-SUFFIX,auth.openai.com'
-  - 'DOMAIN-SUFFIX,cdn.openai.com'
+  # > Google Core
+  - 'DOMAIN-SUFFIX,google.com'
+  - 'DOMAIN-SUFFIX,google.cn'
+  - 'DOMAIN-SUFFIX,google.com.hk'
+  - 'DOMAIN-SUFFIX,googleapis.com'
+  - 'DOMAIN-SUFFIX,googleapis.cn'
+  - 'DOMAIN-SUFFIX,googleusercontent.com'
+  - 'DOMAIN-SUFFIX,googleusercontent.cn'
+  - 'DOMAIN-SUFFIX,gstatic.com'
+  - 'DOMAIN-SUFFIX,googlehosted.com'
+  - 'DOMAIN-SUFFIX,google.dev'
+  - 'DOMAIN-SUFFIX,googlecloud.com'
+  - 'DOMAIN-SUFFIX,googleblog.com'
+  - 'DOMAIN-SUFFIX,googlecode.com'
+  - 'DOMAIN-SUFFIX,googlesource.com'
+  - 'DOMAIN-SUFFIX,withgoogle.com'
 
-  # > OpenAI Static / Assets
-  - 'DOMAIN-SUFFIX,oaiusercontent.com'
-  - 'DOMAIN-SUFFIX,oaistatic.com'
+  # > Google CDN / Static / Media
+  - 'DOMAIN-SUFFIX,gvt1.com'
+  - 'DOMAIN-SUFFIX,gvt2.com'
+  - 'DOMAIN-SUFFIX,ggpht.com'
 
-  # > OpenAI Realtime / Streaming
-  - 'DOMAIN-SUFFIX,openai.azure.com'
+  # > Google Search / Ads / Analytics
+  - 'DOMAIN-SUFFIX,googlesyndication.com'
+  - 'DOMAIN-SUFFIX,googleadservices.com'
+  - 'DOMAIN-SUFFIX,doubleclick.net'
+  - 'DOMAIN-SUFFIX,googletagmanager.com'
+  - 'DOMAIN-SUFFIX,googletagservices.com'
+  - 'DOMAIN-SUFFIX,google-analytics.com'
 
-  # > OpenAI Sora / Media
-  - 'DOMAIN-SUFFIX,sora.com'
+  # > Google AI / Gemini / DeepMind
+  - 'DOMAIN-SUFFIX,deepmind.com'
+  - 'DOMAIN-SUFFIX,deepmind.google'
+  - 'DOMAIN-SUFFIX,generativeai.google'
 
-  # > OpenAI Telemetry / Internal APIs
-  - 'DOMAIN-SUFFIX,events.openai.com'
+  # > Google Mail
+  - 'DOMAIN-SUFFIX,gmail.com'
+  - 'DOMAIN-SUFFIX,googlemail.com'
+
+  # > Google Android / Play
+  - 'DOMAIN-SUFFIX,android.com'
+  - 'DOMAIN-SUFFIX,googleplay.com'
+
+  # > Google Cloud / Firebase
+  - 'DOMAIN-SUFFIX,cloudfunctions.net'
+  - 'DOMAIN-SUFFIX,appspot.com'
+  - 'DOMAIN-SUFFIX,firebaseapp.com'
+  - 'DOMAIN-SUFFIX,firebaseio.com'
+  - 'DOMAIN-SUFFIX,firebasedatabase.app'
+
+  # > YouTube
+  - 'DOMAIN-SUFFIX,youtube.com'
+  - 'DOMAIN-SUFFIX,youtu.be'
+  - 'DOMAIN-SUFFIX,youtube-nocookie.com'
+  - 'DOMAIN-SUFFIX,googlevideo.com'
+  - 'DOMAIN-SUFFIX,ytimg.com'
+
+  # > Gemini / Google AI Special Endpoints
+  - 'DOMAIN,alkalicore-pa.clients6.google.com'
+  - 'DOMAIN,alkalimakersuite-pa.clients6.google.com'
+  - 'DOMAIN,waa-pa.clients6.google.com'
+  - 'DOMAIN,jnn-pa.googleapis.com'
+  - 'DOMAIN-SUFFIX,geller-pa.googleapis.com'
+  - 'DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com'
+
+  # > Google Other Services
+  - 'DOMAIN-SUFFIX,cloud.google.com'
+  - 'DOMAIN-SUFFIX,notebooklm.google'
+  - 'DOMAIN-SUFFIX,ai.google.dev'
