@@ -1,50 +1,71 @@
 payload:
-  # > Google Core
-  - 'DOMAIN-SUFFIX,google.com'
-  - 'DOMAIN-SUFFIX,googleapis.com'
-  - 'DOMAIN-SUFFIX,gstatic.com'
-  - 'DOMAIN-SUFFIX,googlesyndication.com'
-  - 'DOMAIN-SUFFIX,googleusercontent.com'
 
-  # > Google Search & Services
-  - 'DOMAIN-SUFFIX,googleadservices.com'
-  - 'DOMAIN-SUFFIX,doubleclick.net'
-  - 'DOMAIN-SUFFIX,googletagmanager.com'
-  - 'DOMAIN-SUFFIX,googletagservices.com'
-  - 'DOMAIN-SUFFIX,google-analytics.com'
+# Google 主域名及所有子域名
+- DOMAIN-SUFFIX,google.com,Google
+- DOMAIN-SUFFIX,google.cn,Google
+- DOMAIN-SUFFIX,google.com.hk,Google
+- DOMAIN-SUFFIX,googleapis.com,Google
+- DOMAIN-SUFFIX,googleapis.cn,Google
+- DOMAIN-SUFFIX,googleusercontent.com,Google
+- DOMAIN-SUFFIX,googleusercontent.cn,Google
+- DOMAIN-SUFFIX,gstatic.com,Google
+- DOMAIN-SUFFIX,googlehosted.com,Google
+- DOMAIN-SUFFIX,google.dev,Google
+- DOMAIN-SUFFIX,googlecloud.com,Google
+- DOMAIN-SUFFIX,googleblog.com,Google
+- DOMAIN-SUFFIX,googlecode.com,Google
+- DOMAIN-SUFFIX,googlesource.com,Google
+- DOMAIN-SUFFIX,withgoogle.com,Google
 
-  # > Google Play
-  - 'DOMAIN-SUFFIX,play.google.com'
-  - 'DOMAIN-SUFFIX,android.com'
-  - 'DOMAIN-SUFFIX,android.googleapis.com'
-  - 'DOMAIN-SUFFIX,googleplay.com'
-  - 'DOMAIN-SUFFIX,gvt1.com'
-  - 'DOMAIN-SUFFIX,gvt2.com'
+# Google CDN / Static / Media
+- DOMAIN-SUFFIX,gvt1.com,Google
+- DOMAIN-SUFFIX,gvt2.com,Google
+- DOMAIN-SUFFIX,ggpht.com,Google
 
-  # > Google Cloud Platform (GCP)
-  - 'DOMAIN-SUFFIX,cloud.google.com'
-  - 'DOMAIN-SUFFIX,googlecloud.com'
-  - 'DOMAIN-SUFFIX,cloudfunctions.net'
-  - 'DOMAIN-SUFFIX,appspot.com'
-  - 'DOMAIN-SUFFIX,firebaseapp.com'
-  - 'DOMAIN-SUFFIX,firebaseio.com'
+# Google Search / Ads / Analytics
+- DOMAIN-SUFFIX,googlesyndication.com,Google
+- DOMAIN-SUFFIX,googleadservices.com,Google
+- DOMAIN-SUFFIX,doubleclick.net,Google
+- DOMAIN-SUFFIX,googletagmanager.com,Google
+- DOMAIN-SUFFIX,googletagservices.com,Google
+- DOMAIN-SUFFIX,google-analytics.com,Google
 
-  # > Google Gemini / AI
-  - 'DOMAIN-SUFFIX,gemini.google.com'
-  - 'DOMAIN-SUFFIX,bard.google.com'
-  - 'DOMAIN-SUFFIX,ai.google.dev'
+# Google AI / Gemini / DeepMind
+- DOMAIN-SUFFIX,deepmind.com,Google
+- DOMAIN-SUFFIX,deepmind.google,Google
+- DOMAIN-SUFFIX,generativeai.google,Google
 
-  # > YouTube (Google Related)
-  - 'DOMAIN-SUFFIX,youtube.com'
-  - 'DOMAIN-SUFFIX,ytimg.com'
-  - 'DOMAIN-SUFFIX,googlevideo.com'
+# Google Mail
+- DOMAIN-SUFFIX,gmail.com,Google
+- DOMAIN-SUFFIX,googlemail.com,Google
 
-  # > Google Auth & Accounts
-  - 'DOMAIN-SUFFIX,accounts.google.com'
-  - 'DOMAIN-SUFFIX,oauth2.googleapis.com'
+# Google Android / Play
+- DOMAIN-SUFFIX,android.com,Google
+- DOMAIN-SUFFIX,googleplay.com,Google
 
-  # > Google Mail & Workspace
-  - 'DOMAIN-SUFFIX,gmail.com'
-  - 'DOMAIN-SUFFIX,googlemail.com'
-  - 'DOMAIN-SUFFIX,drive.google.com'
-  - 'DOMAIN-SUFFIX,docs.google.com'
+# Google Cloud / Firebase
+- DOMAIN-SUFFIX,cloudfunctions.net,Google
+- DOMAIN-SUFFIX,appspot.com,Google
+- DOMAIN-SUFFIX,firebaseapp.com,Google
+- DOMAIN-SUFFIX,firebaseio.com,Google
+- DOMAIN-SUFFIX,firebasedatabase.app,Google
+
+# YouTube - 统一纳入 Google
+- DOMAIN-SUFFIX,youtube.com,Google
+- DOMAIN-SUFFIX,youtu.be,Google
+- DOMAIN-SUFFIX,youtube-nocookie.com,Google
+- DOMAIN-SUFFIX,googlevideo.com,Google
+- DOMAIN-SUFFIX,ytimg.com,Google
+
+# Gemini / Google AI 特殊端点
+- DOMAIN,alkalicore-pa.clients6.google.com,Google
+- DOMAIN,alkalimakersuite-pa.clients6.google.com,Google
+- DOMAIN,waa-pa.clients6.google.com,Google
+- DOMAIN,jnn-pa.googleapis.com,Google
+- DOMAIN-SUFFIX,geller-pa.googleapis.com,Google
+- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,Google
+
+# Google 其他独立域名
+- DOMAIN-SUFFIX,cloud.google.com,Google
+- DOMAIN-SUFFIX,notebooklm.google,Google
+- DOMAIN-SUFFIX,ai.google.dev,Google
